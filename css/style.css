@@ -285,7 +285,7 @@
 }
 
 .project-item .project-title {
-    position: absolute;
+    /* position: absolute; */
     top: auto;
     right: 1rem;
     bottom: 1rem;
