@@ -111,7 +111,9 @@ document.getElementById("rewiew_message").value = "";
  $('#review-userimage').val('');
   }
 
-
-
+//   <!-- WhatsApp Button -->
+  document.getElementById('whatsapp-button').addEventListener('click', function() {
+    this.style.display = 'none';
+  });
 
 
