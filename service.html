@@ -33,6 +33,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/tabmenu.css">
 </head>
 
 <body>
@@ -102,7 +103,7 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid hero-header bg-light py-5 mb-5">
+    <div class="container-fluid hero-header bg-white ">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
@@ -115,7 +116,7 @@
                         </ol>
                     </nav>
                 </div>
-                <div class="col-lg-6 animated fadeIn">
+                <!-- <div class="col-lg-6 animated fadeIn">
                     <div class="row g-3">
                         <div class="col-6 text-end">
                             <img class="img-fluid bg-white p-3 w-100" src="img/hero-1.jpg" alt="">
@@ -124,131 +125,105 @@
                             <img class="img-fluid bg-white p-3 w-100" src="img/hero-2.jpg" alt="">
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
     <!-- Header End -->
 
 
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="text-primary text-uppercase mb-2">Our Services</p>
-                <h1 class="display-6 mb-4">We Provide Best Professional Services</h1>
-            </div>
-            <div class="row g-3">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex flex-column bg-light p-3 pb-0">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="">
-                            <div class="service-overlay">
-                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h4>Weddings</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex flex-column bg-light p-3 pb-0">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="img/service-2.jpg" alt="">
-                            <div class="service-overlay">
-                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h4>Portraits</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex flex-column bg-light p-3 pb-0">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="img/service-3.jpg" alt="">
-                            <div class="service-overlay">
-                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h4>Fashion</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item d-flex flex-column bg-light p-3 pb-0">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="img/service-4.jpg" alt="">
-                            <div class="service-overlay">
-                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h4>Editorial</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="container-tab bg-light">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <!-- <p class="text-primary text-uppercase">Our Services</p> -->
+            <h1 class="display-6 ">We Provide Best Professional Services</h1>
         </div>
-    </div>
-    <!-- Service End -->
+        <div class="tab__bar">
+          <div class="tab__navigation">
+            <span class="left__btn">
+              <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg" id="fi_2735069">
+                <g id="Layer_19" data-name="Layer 19">
+                  <path d="m23.21 28.29a1 1 0 0 1 0 1.42 1 1 0 0 1 -1.42 0l-13-13a1 1 0 0 1 0-1.42l13-13a1 1 0 1 1 1.42 1.42l-12.3 12.29z"></path>
+                </g>
+              </svg>
+            </span>
+            <span class="right__btn">
+              <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg" id="fi_2735071">
+                <g id="Layer_20" data-name="Layer 20">
+                  <path d="m23.21 16.71-13 13a1 1 0 0 1 -1.42 0 1 1 0 0 1 0-1.42l12.3-12.29-12.3-12.29a1 1 0 0 1 1.42-1.42l13 13a1 1 0 0 1 0 1.42z"></path>
+                </g>
+              </svg>
+            </span>
+            <ul class="tab__menu">
+              <li class="tab__btn active">Cutting</li>
+              <li class="tab__btn">Adjusting </li>
+              <li class="tab__btn">Alter</li>
+             
+            </ul>
+          </div>
+        </div>
+        <div class="tab__content">
+          <div class="tab active">
+            <div class="row">
+              <div class="left-column">
+                <div class="img-card">
+                  <img src="https://images.pexels.com/photos/2977432/pexels-photo-2977432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                </div>
+              </div>
+              <div class="right-column">
+                <div class="info">
+                  <h2 class="city">Cutting</h2>
+                  <div class="description">
+                    <p>
+                      Ha Noi is the capital and second-largest city of Vietnam, located on the western bank of the Red River. It is a political, cultural, educational and economic center of the country, with a rich history and heritage. Ha Noi has many historical and cultural attractions, such as the Hoang Thanh Thang Long (the Imperial Citadel), the Temple of Literature, the Ho Chi Minh Mausoleum and the Hanoi Opera House. Ha Noi is also known for its cuisine, handicrafts and festivals, which reflect the diversity and traditions of the city. Ha Noi is a charming and vibrant destination that offers a glimpse into the history and culture of Vietnam
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab">
+            <div class="row">
+              <div class="left-column">
+                <div class="img-card">
+                  <img src="https://images.pexels.com/photos/6128410/pexels-photo-6128410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                </div>
+              </div>
+              <div class="right-column">
+                <div class="info">
+                  <h2 class="city">Adjusting</h2>
+                  <div class="description">
+                    <p>
+                      Ho Chi Minh City is the most populous and vibrant city in Vietnam, with a history that spans from the French colonial era to the present day. It is a cultural and economic hub that offers many attractions for visitors, such as the War Remnants Museum, the Notre Dame Cathedral, the Ben Thanh Market and the Cu Chi Tunnels. Ho Chi Minh City is also known for its delicious cuisine, lively nightlife and diverse festivals that celebrate the traditions and spirit of the city. Ho Chi Minh City is a fascinating destination that showcases the history and culture of Vietnam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab">
+            <div class="row">
+              <div class="left-column">
+                <div class="img-card">
+                  <img src="https://images.pexels.com/photos/15467068/pexels-photo-15467068/free-photo-of-dragon-head-over-bridge.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                </div>
+              </div>
+              <div class="right-column">
+                <div class="info">
+                  <h2 class="city">Alter</h2>
+                  <div class="description">
+                    <p>
+                      Da Nang City is a vibrant and modern city in central Vietnam, with a rich history and culture. It has a beautiful coastline, a well-sheltered port, and a strategic location on the main transport routes of the country. Da Nang City is home to many attractions, such as the Son Tra Peninsula, the Marble Mountains, the Cham Museum of Sculpture, and the War Remnants Museum. Da Nang City is also famous for its delicious street food, especially the noodle dish Mi Quang. Da Nang City is a charming and dynamic destination that showcases the history and culture of Vietnam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="text-primary text-uppercase mb-2">Client's Review</p>
-                <h1 class="display-6 mb-0">More Than 20000+ Customers Trusted Us</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item bg-white p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-1.jpg" alt="">
-                        <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                    </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                </div>
-                <div class="testimonial-item bg-white p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-2.jpg" alt="">
-                        <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                    </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                </div>
-                <div class="testimonial-item bg-white p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-3.jpg" alt="">
-                        <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                    </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                </div>
-                <div class="testimonial-item bg-white p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-4.jpg" alt="">
-                        <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                    </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
+ 
 
 
     <!-- Footer Start -->
@@ -339,6 +314,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/tebmenu.js"></script>
 </body>
 
 </html>
