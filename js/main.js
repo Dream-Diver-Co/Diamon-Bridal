@@ -17,13 +17,13 @@
 
 
     // Navbar on scrolling
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 1) {
-            $('.navbar').fadeIn('slow').css('display', 'flex');
-        } else {
-            $('.navbar').fadeOut('slow').css('display', 'none');
-        }
-    });
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 1) {
+    //         $('.navbar').fadeIn('slow').css('display', 'flex');
+    //     } else {
+    //         $('.navbar').fadeOut('slow').css('display', 'none');
+    //     }
+    // });
 
 
     // Modal Video
@@ -115,5 +115,19 @@ document.getElementById("rewiew_message").value = "";
   document.getElementById('whatsapp-button').addEventListener('click', function() {
     this.style.display = 'none';
   });
+
+
+
+//   <!-- Script to Load Image in Modal -->
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var imageModal = document.getElementById('imageModal');
+        imageModal.addEventListener('show.bs.modal', function (event) {
+            var button = event.relatedTarget;
+            var imageSrc = button.getAttribute('data-bs-image');
+            var modalImage = imageModal.querySelector('#modalImage');
+            modalImage.src = imageSrc;
+        });
+    });
 
 
