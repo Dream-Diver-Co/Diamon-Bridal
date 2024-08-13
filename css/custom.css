@@ -509,6 +509,19 @@ padding: 2rem !important;
   border-radius: 50px;
 }
 
+.back-to-top-icon{
+  position: fixed; 
+  bottom: 77px; 
+  right: 15px; 
+  z-index: 99;
+}
+.back-to-top-whatsapp{
+  position: fixed; 
+  bottom: 130px; 
+  right: 15px; 
+  z-index: 1001;
+}
+
 
 
 /* responsive */
